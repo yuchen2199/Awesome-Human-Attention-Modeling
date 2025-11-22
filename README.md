@@ -37,13 +37,11 @@ and human-in-the-loop evaluation all aim to:
 - improve robustness and generalization across domains and modalities,
 - enhance interpretability and human alignment.
 
-<!--
 Understanding and modeling human visual attention is therefore crucial for:
 
 - **Cross-modal learning** (e.g., vision–language models grounded in human gaze or saliency),
 - **Multi-task and interactive systems** (e.g., agents that coordinate perception, action, and communication),
 - **Human-centered applications** (e.g., HCI, AR/VR, medical imaging, assistive systems).
--->
 
 This repository is dedicated to:
 
@@ -82,14 +80,14 @@ This repository is dedicated to:
     - [Other](#scanpath-other-methods)
 
 - 🎯 [Applications of Human Attention](#applications-of-human-visual-attention)
-<!--
-  - [HCI / Interaction / AR](#applications-hci)
-  - [AD / Cognitive & Neuro](#applications-ad)
-  - [Robotics](#applications-robotics)
-  - [Medicine](#applications-medicine)
-  - [Design](#applications-design)
-  - [Commerce](#applications-commerce)
--->
+  - [Datasets](#applications-datasets)
+  - [Methods](#applications-methods)
+    - [HCI / Interaction / AR](#applications-hci)
+    - [AD / Cognitive & Neuro](#applications-ad)
+    - [Robotics](#applications-robotics)
+    - [Medicine](#applications-medicine)
+    - [Design](#applications-design)
+    - [Commerce](#applications-commerce)
 
 - 📑 [Resources & Benchmarks](#resources-and-benchmarks)
 
@@ -189,45 +187,112 @@ This repository is dedicated to:
 </details>
 
 
-<details id="saliency-3d-methods">
+<details open id="saliency-3d-methods">
 <summary>3D</summary>
 <br>
 
-_To be added._
+| Conference / Journal | Title | Links |
+|----------------------|-------|-------|
+| TVCG 2025 | [Unified Approach to Mesh Saliency: Evaluating Textured and Non-Textured Meshes Through VR and Multifunctional Prediction](https://ieeexplore.ieee.org/abstract/document/10918849) |  |
+| CVPR 2025 | [Mesh Mamba: A Unified State Space Model for Saliency Prediction in Non-Textured and Textured Meshes](https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Mesh_Mamba_A_Unified_State_Space_Model_for_Saliency_Prediction_CVPR_2025_paper.html) | [GitHub](https://github.com/kaviezhang/MeshMamba) |
+| TMM 2024 | [Towards 3D Colored Mesh Saliency: Database and Benchmarks](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10251829) |  |
+| TMM 2023 | [SP-Det: Leveraging Saliency Prediction for Voxel-Based 3D Object Detection in Sparse Point Cloud](https://ieeexplore.ieee.org/abstract/document/10214314) |  |
+| TPAMI 2023 | 3D Visual Saliency: An Independent Perceptual Measure or a Derivative of 2D Image Saliency? |  |
+| CVPR 2021 | [Mesh Saliency: An Independent Perceptual Measure or a Derivative of Image Saliency?](https://openaccess.thecvf.com/content/CVPR2021/html/Song_Mesh_Saliency_An_Independent_Perceptual_Measure_or_a_Derivative_of_CVPR_2021_paper.html) |  |
+
 
 </details>
 
-<details id="saliency-video-methods">
+<details open id="saliency-video-methods">
 <summary>Video</summary>
 <br>
 
-_To be added._
+| Conference / Journal | Title | Links |
+|----------------------|-------|-------|
+| TITS 2025 | [MTSF: Multi-Scale Temporal–Spatial Fusion Network for Driver Attention Prediction](https://doi.org/10.1109/TITS.2024.3510116) | [GitHub](https://github.com/JiBingdong/MTSF) |
+| TCSVT 2025 | [TM2SP: A Transformer-based Multi-Level Spatiotemporal Feature Pyramid Network for Video Saliency Prediction](https://ieeexplore.ieee.org/abstract/document/10841372) | – |
+| TCSVT 2025 | [Toward Unifying Saliency Transformer for Video Saliency Prediction and Detection](https://ieeexplore.ieee.org/abstract/document/10896756) | [Project](https://junwenxiong.github.io/UniST) |
+| AAAI 2025 | [CaRDiff: Video Salient Object Ranking Chain of Thought Reasoning for Saliency Prediction with Diffusion](https://ojs.aaai.org/index.php/AAAI/article/view/32785) | – |
+| TIV 2024 | [SCOUT+: Towards Practical Task-Driven Drivers’ Gaze Prediction](https://doi.org/10.1109/IV55156.2024.10588743) | [GitHub](https://github.com/ykotseruba/SCOUT) |
+| TIV 2024 | [Understanding and Modeling the Effects of Task and Context on Drivers’ Gaze Allocation](https://doi.org/10.1109/IV55156.2024.10588589) | [GitHub](https://github.com/ykotseruba/SCOUT) |
+| TMM 2023 | [Multi-Scale Spatiotemporal Feature Fusion Network for Video Saliency Prediction](https://ieeexplore.ieee.org/document/10269025) | – |
+| TMM 2023 | [Spatio-Temporal Self-Attention Network for Video Saliency Prediction](https://arxiv.org/pdf/2108.10696v2) | [GitHub](https://github.com/come880412/STSANet) |
+| TCSVT 2023 | [Transformer-Based Multi-Scale Feature Integration Network for Video Saliency Prediction](https://ieeexplore.ieee.org/document/10130326) | [GitHub](https://github.com/wusonghe/TMFI-Net) |
+| WACV 2023 | [TinyHD: Efficient Video Saliency Prediction with Heterogeneous Decoders using Hierarchical Maps Distillation](https://arxiv.org/pdf/2301.04619v1) | [GitHub](https://github.com/feiyanhu/tinyhd) |
+| TITS 2023 | [Driving Visual Saliency Prediction of Dynamic Night Scenes via a Spatio-Temporal Dual-Encoder Network](https://doi.org/10.1109/TITS.2023.3323468) | [GitHub](https://github.com/taodeng/DrFixD-night) |
+| TII 2022 | [On-Device Saliency Prediction Based on Pseudoknowledge Distillation](https://ieeexplore.ieee.org/abstract/document/9720080) | [GitHub](https://github.com/chakkritte/PKD) |
+| Neurocomputing 2022 | [ECANet: Explicit Cyclic Attention-Based Network for Video Saliency Prediction](https://www.sciencedirect.com/science/article/pii/S0925231221015022) | – |
+| TITS 2022 | [Adaptive Short-Temporal Induced Aware Fusion Network for Predicting Attention Regions Like a Driver (ASIAF-Net)](https://doi.org/10.1109/TITS.2022.3165619) | [GitHub](https://github.com/liuchunsense/ASIAFnet) |
+| TITS 2022 | [DADA: Driver Attention Prediction in Driving Accident Scenarios](https://doi.org/10.1109/TITS.2020.3044678) | [GitHub](https://github.com/JWFangit/LOTVS-DADA) |
+| TCSVT 2022 | [Viewing Behavior Supported Visual Saliency Predictor for 360 Degree Videos](https://ieeexplore.ieee.org/abstract/document/9606880) | [GitHub](https://github.com/vhchuong/Saliency-prediction-for-360-degree-video) |
+| TITS 2021 | [HammerDrive: A Task-Aware Driving Visual Attention Model](https://doi.org/10.1109/TITS.2021.3055120) | – |
+| PR 2021 | [Video Saliency Prediction Using Enhanced Spatiotemporal Alignment Network](https://arxiv.org/pdf/2001.00292) | [GitHub](https://github.com/cj4L/ESAN-VSP) |
+| IJCV 2021 | [Hierarchical Domain-Adapted Feature Learning for Video Saliency Prediction](https://link.springer.com/article/10.1007/s11263-021-01519-y) | [GitHub](https://github.com/perceivelab/hd2s) |
+| Scientific Reports 2021 | [Deep Saliency Models Learn Low-, Mid-, and High-Level Features to Predict Scene Attention](https://www.nature.com/articles/s41598-021-97879-z) | – |
+| ICPR 2021 | [ATSal: An Attention Based Architecture for Saliency Prediction in 360 Videos](https://link.springer.com/chapter/10.1007/978-3-030-68796-0_22) | [GitHub](https://github.com/mtliba/ATSal) |
+| IJCAI 2021 | [GASP: Gated Attention for Saliency Prediction](https://arxiv.org/pdf/2206.04590v1) | [GitHub](https://github.com/knowledgetechnologyuhh/gasp) |
+| PR 2020 | [DeepCT: A Novel Deep Complex-Valued Network with Learnable Transform for Video Saliency Prediction](https://www.sciencedirect.com/science/article/pii/S0031320320300406) | – |
+| TMM 2020 | [Viewport-Dependent Saliency Prediction in 360° Video](https://ieeexplore.ieee.org/abstract/document/9072511) | – |
+| TIP 2020 | [A Spatial-Temporal Recurrent Neural Network for Video Saliency Prediction](https://ieeexplore.ieee.org/document/9263359) | [GitHub](https://github.com/zhangkao/IIP_STRNN_Saliency) |
+| AAAI 2020 | [SalSAC: A Video Saliency Prediction Model with Shuffled Attentions and Correlation-Based ConvLSTM](https://ojs.aaai.org/index.php/AAAI/article/view/6927) | – |
+| ECCV 2020 | [Unified Image and Video Saliency Modeling](https://arxiv.org/abs/2003.05477) | [GitHub](https://github.com/rdroste/unisal) |
+| TIP 2019 | [Video Saliency Prediction Using Spatiotemporal Residual Attentive Networks](https://ieeexplore.ieee.org/document/8811731) | [GitHub](https://github.com/ashleylqx/STRA-Net) |
+| BMVC 2019 | [Simple vs Complex Temporal Recurrences for Video Saliency Prediction](https://arxiv.org/pdf/1907.01869v4) | [GitHub](https://github.com/Linardos/SalEMA) |
+| BMVC 2019 | [Temporal Recurrences for Video Saliency Prediction](https://doras.dcu.ie/23543/1/_BMVC__Simple_vs_complex_temporal_recurrences_for_video_saliency_prediction__Copy_.pdf) | [GitHub](https://github.com/juanjo3ns/SalBCE) |
+| ICCV 2019 | [TASED-Net: Temporally-Aggregating Spatial Encoder-Decoder Network for Video Saliency Detection](https://arxiv.org/abs/1908.05786) | [GitHub](https://github.com/MichiganCOG/TASED-Net) |
+| CVPR 2019 | [Understanding and Visualizing Deep Visual Saliency Models](https://openaccess.thecvf.com/content_CVPR_2019/html/He_Understanding_and_Visualizing_Deep_Visual_Saliency_Models_CVPR_2019_paper.html) | [GitHub](https://github.com/SenHe/uavdvsm) |
+| TCSVT 2018 | [Learning Coupled Convolutional Networks Fusion for Video Saliency Prediction](https://ieeexplore.ieee.org/abstract/document/8474977) | – |
+| TCSVT 2018 | [Video Saliency Prediction Based on Spatial-Temporal Two-Stream Network](https://ieeexplore.ieee.org/document/8543830) | [GitHub](https://github.com/zhangkao/IIP_TwoS_Saliency) |
+| TIP 2018 | [Find Who to Look at: Turning From Action to Saliency](https://ieeexplore.ieee.org/abstract/document/8360155) | [GitHub](https://github.com/yufanLiu/find) |
+| TPAMI 2018 | [Revisiting Video Saliency Prediction in the Deep Learning Era](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8744328) | – |
+| TPAMI 2018 | [Predicting the Driver's Focus of Attention: The DR(eye)VE Project](https://doi.org/10.1109/TPAMI.2018.2845370) | [GitHub](https://github.com/ndrplz/dreyeve) |
+| ICMEW 2018 | [SalGAN360: Visual Saliency Prediction on 360 Degree Images With Generative Adversarial Networks](https://ieeexplore.ieee.org/abstract/document/8551543) | [GitHub](https://github.com/FannyChao/SalGAN360) |
+| ECCV 2018 | [DeepVS: A Deep Learning Based Video Saliency Prediction Approach](http://openaccess.thecvf.com/content_ECCV_2018/papers/Lai_Jiang_DeepVS_A_Deep_ECCV_2018_paper.pdf) | [GitHub](https://github.com/remega/OMCNN_2CLSTM) |
+| CVPR 2018 | [Revisiting Video Saliency: A Large-Scale Benchmark and a New Model](https://arxiv.org/abs/1801.07424) | [GitHub](https://github.com/wenguanwang/DHF1K) / [Code](https://github.com/Nablax/ACLnet-Pytorch) |
+| CVPR 2018 | [Going From Image to Video Saliency: Augmenting Image Salience With Dynamic Attentional Push](https://openaccess.thecvf.com/content_cvpr_2018/html/Gorji_Going_From_Image_CVPR_2018_paper.html) | – |
+| CVPR 2018 | [Cube Padding for Weakly-Supervised Saliency Prediction in 360° Videos](https://arxiv.org/abs/1806.01320v1) | [GitHub](https://github.com/hsientzucheng/CP-360-Weakly-Supervised-Saliency) |
+| TIV 2017 | [Learning Where to Attend Like a Human Driver](https://doi.org/10.1109/IVS.2017.7995833) | [GitHub](https://github.com/francescosolera/dreyeving) |
+| TMM 2017 | [Spatio-Temporal Saliency Networks for Dynamic Saliency Prediction](https://arxiv.org/abs/1607.04730) | [GitHub](https://github.com/cagdasbak/dynamicsaliency) |
+| arXiv 2016 | [Deep Learning for Saliency Prediction in Natural Video](https://arxiv.org/abs/1604.08010) | – |
+| ICIP 2016 | [Transfer Learning With Deep Networks for Saliency Prediction in Natural Video](https://ieeexplore.ieee.org/abstract/document/7532629) | – |
+| TIP 2014 | [Saliency Prediction on Stereoscopic Videos](https://ieeexplore.ieee.org/abstract/document/6728719) | – |
+
 
 </details>
 
-<details id="saliency-other-methods">
+<details open id="saliency-other-methods">
 <summary>Other</summary>
 <br>
 
-_To be added._
+| Conference / Journal | Title | Links |
+|----------------------|-------|-------|
+| CVPR 2024 | [DiffSal: Joint Audio and Video Learning for Diffusion Saliency Prediction](https://arxiv.org/abs/2403.01226) | [GitHub](https://github.com/junwenxiong/diff_sal) |
+| CVPR 2023 | [CASP-Net: Rethinking Video Saliency Prediction from an Audio-Visual Consistency Perceptual Perspective](https://arxiv.org/abs/2303.06357) | – |
+| IROS 2021 | [ViNet: Pushing the Limits of Visual Modality for Audio-Visual Saliency Prediction](https://ieeexplore.ieee.org/abstract/document/9635989) | [GitHub](https://github.com/samyak0210/ViNet) |
+| TIP 2020 | [A Multimodal Saliency Model for Videos With High Audio-Visual Correspondence](https://ieeexplore.ieee.org/document/8962278) | – |
+| ECCV 2020 | [Learning to Predict Salient Faces: A Novel Visual-Audio Saliency Model](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650409.pdf) | [GitHub](https://github.com/MinglangQiao/visual_audio_saliency) |
+| CVPR 2020 | [STAViS: Spatio-Temporal AudioVisual Saliency Network](https://arxiv.org/pdf/2001.03063) | [GitHub](https://github.com/atsiami/STAViS) |
+| arXiv 2019 | [DAVE: A Deep Audio-Visual Embedding for Dynamic Saliency Prediction](https://arxiv.org/abs/1905.10693) | [GitHub](https://github.com/hrtavakoli/DAVE) |
+| CVPR 2018 | [Audio-Visual Temporal Saliency Modeling Validated by fMRI Data](https://openaccess.thecvf.com/content_cvpr_2018_workshops/w39/html/Koutras_Audio-Visual_Temporal_Saliency_CVPR_2018_paper.html) | – |
+| CVPR 2017 | [Saliency Revisited: Analysis of Mouse Movements Versus Fixations](https://openaccess.thecvf.com/content_cvpr_2017/html/Tavakoli_Saliency_Revisited_Analysis_CVPR_2017_paper.html) | – |
+| ECCV 2016 | [Where Should Saliency Models Look Next?](https://link.springer.com/chapter/10.1007/978-3-319-46454-1_49) | – |
+| CVPR 2016 | [Spatially Binned ROC: A Comprehensive Saliency Metric](https://openaccess.thecvf.com/content_cvpr_2016/html/Wloka_Spatially_Binned_ROC_CVPR_2016_paper.html) | – |
 
 </details>
-
-
-
 
 
 </details>
 
 ---
 
-<a id="saliency-prediction"></a>
-## 🌸 Scanpath Prediction
+---
+<a id="scanpath-prediction"></a>
+## 🌊 Scanpath Prediction
 
 
 ### 1. Datasets 
 
-<details open id="saliency-prediction-datasets">
+<details id="scanpath-prediction-datasets">
 <summary>Dataset list</summary>
 <br>
 
@@ -236,16 +301,96 @@ _To be added._
 </details>
 
 ---
-<a id="saliency-prediction-methods"></a>
+<a id="scanpath-prediction-methods"></a>
 ### 2. Methods 
 
-<details open id="saliency-image-methods">
+<details id="scanpath-image-methods">
 <summary>Image</summary>
 <br>
 
 _To be added._
 
 </details>
+
+<details id="scanpath-3d-methods">
+<summary>3D</summary>
+<br>
+
+_To be added._
+
+</details>
+
+
+---
+<a id="applications-of-human-visual-attention"></a>
+## 🎯 Applications of Human Attention
+
+
+### 1. Datasets 
+
+<details id="applications-datasets">
+<summary>Dataset list</summary>
+<br>
+
+_To be added._
+
+</details>
+
+---
+<a id="applications-methods"></a>
+### 2. Methods 
+
+<details id="applications-hci">
+<summary>HCI / Interaction / AR</summary>
+<br>
+
+_To be added._
+
+</details>
+
+<details id="applications-ad">
+<summary>AD / Cognitive & Neuro</summary>
+<br>
+
+_To be added._
+
+</details>
+
+<details id="applications-robotics">
+<summary>Robotics</summary>
+<br>
+
+_To be added._
+
+</details>
+
+<details id="applications-medicine">
+<summary>Medicine</summary>
+<br>
+
+_To be added._
+
+</details>
+
+<details id="applications-design">
+<summary>Design</summary>
+<br>
+
+_To be added._
+
+</details>
+
+<details id="applications-commerce">
+<summary>Commerce</summary>
+<br>
+
+_To be added._
+
+</details>
+
+
+---
+
 
 
 
