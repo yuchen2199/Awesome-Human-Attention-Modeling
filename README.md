@@ -37,11 +37,13 @@ and human-in-the-loop evaluation all aim to:
 - improve robustness and generalization across domains and modalities,
 - enhance interpretability and human alignment.
 
+<!--
 Understanding and modeling human visual attention is therefore crucial for:
 
 - **Cross-modal learning** (e.g., vision–language models grounded in human gaze or saliency),
 - **Multi-task and interactive systems** (e.g., agents that coordinate perception, action, and communication),
 - **Human-centered applications** (e.g., HCI, AR/VR, medical imaging, assistive systems).
+-->
 
 This repository is dedicated to:
 
