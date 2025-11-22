@@ -1,5 +1,5 @@
 <h1 align="center">
-  Awesome – Human Visual Attention Modeling & Applications
+  Awesome – Human Attention Modeling & Applications
 </h1>
 
 <p align="center">
@@ -79,13 +79,15 @@ This repository is dedicated to:
     - [Video](#scanpath-video-methods)
     - [Other](#scanpath-other-methods)
 
-- 🎯 [Applications of Human Visual Attention](#applications-of-human-visual-attention)
+- 🎯 [Applications of Human Attention](#applications-of-human-visual-attention)
+<!--
   - [HCI / Interaction / AR](#applications-hci)
   - [AD / Cognitive & Neuro](#applications-ad)
   - [Robotics](#applications-robotics)
   - [Medicine](#applications-medicine)
   - [Design](#applications-design)
   - [Commerce](#applications-commerce)
+-->
 
 - 📑 [Resources & Benchmarks](#resources-and-benchmarks)
 
