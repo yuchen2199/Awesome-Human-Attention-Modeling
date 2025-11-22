@@ -136,7 +136,7 @@ This repository is dedicated to:
 | JoV 2014 | [Predicting Human Gaze Beyond Pixels](https://jov.arvojournals.org/article.aspx?articleid=2193943) | [GitHub](https://github.com/NUS-VIP/predicting-human-gaze-beyond-pixels) |
 | ECCV 2014 | [Saliency in Crowd](https://link.springer.com/chapter/10.1007/978-3-319-10584-0_2) |  |
 | CVPR 2014 | [The Secrets of Salient Object Segmentation](https://openaccess.thecvf.com/content_cvpr_2014/html/Li_The_Secrets_of_2014_CVPR_paper.html) |  |
-| 2013 (Journal) | Saliency Detection via Graph-Based Manifold Ranking |  |
+| CVPR 2013 | [Saliency Detection via Graph-Based Manifold Ranking](https://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Yang_Saliency_Detection_via_2013_CVPR_paper.pdf) |  |
 | Cognitive Computing 2011 | [Predicting Eye Fixations on Complex Visual Stimuli Using Local Symmetry](https://link.springer.com/article/10.1007/s12559-010-9089-5) |  |
 | BMVC 2011 | [Computational Modeling of Top-Down Visual Attention in Interactive Environments](http://www.bmva.org/bmvc/2011/proceedings/paper85/paper85.pdf) | [GitHub](http://ilab.usc.edu/borji/Resources.html) |
 | ECCV 2010 | [An Eye Fixation Database for Saliency Detection in Images](https://link.springer.com/chapter/10.1007/978-3-642-15561-1_3) |  |
