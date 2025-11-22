@@ -147,7 +147,7 @@ This repository is dedicated to:
 <a id="saliency-prediction-methods"></a>
 ### 2. Methods 
 
-<details id="saliency-image-methods">
+<details open id="saliency-image-methods">
 <summary>Image</summary>
 <br>
 
